@@ -36,8 +36,8 @@ namespace CSharp_for_Beginners_Exercises.Arrays_and_Lists
                     break;
 
                 names.Add(name);
-                Console.WriteLine(GetLikesMessage(names));
             }
+            Console.WriteLine(GetLikesMessage(names));
         }
         
         private static string AskForName()
